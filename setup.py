@@ -27,8 +27,8 @@ setup(
     description="A parametric 3D CAD scripting framework based on OCCT",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    # Pointing to my personal fork for reference
-    url="https://github.com/CadQuery/cadquery",
+    # Pointing to my personal fork
+    url="https://github.com/jdoe/cadquery",
     author="CadQuery Developers",
     license="Apache License 2.0",
     classifiers=[
@@ -71,6 +71,9 @@ setup(
             "sphinx-rtd-theme",
             # Added for local dev convenience
             "ipython",
+            # I find these useful when exploring geometry bugs
+            "ipdb",
+            "rich",
         ],
         "ipython": [
             "ipython",
