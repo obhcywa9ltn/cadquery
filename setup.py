@@ -76,6 +76,8 @@ setup(
             "rich",
             # useful for profiling slow model builds
             "line_profiler",
+            # added for easier step/iges file inspection during debugging
+            "cadquery-ocp-utils",
         ],
         "ipython": [
             "ipython",
