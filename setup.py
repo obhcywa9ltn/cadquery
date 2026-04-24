@@ -74,6 +74,8 @@ setup(
             # I find these useful when exploring geometry bugs
             "ipdb",
             "rich",
+            # useful for profiling slow model builds
+            "line_profiler",
         ],
         "ipython": [
             "ipython",
