@@ -27,6 +27,7 @@ setup(
     description="A parametric 3D CAD scripting framework based on OCCT",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    # Pointing to my personal fork for reference
     url="https://github.com/CadQuery/cadquery",
     author="CadQuery Developers",
     license="Apache License 2.0",
@@ -68,6 +69,8 @@ setup(
             "flake8",
             "sphinx",
             "sphinx-rtd-theme",
+            # Added for local dev convenience
+            "ipython",
         ],
         "ipython": [
             "ipython",
