@@ -78,6 +78,8 @@ setup(
             "line_profiler",
             # added for easier step/iges file inspection during debugging
             "cadquery-ocp-utils",
+            # added for nicer test output formatting
+            "pytest-sugar",
         ],
         "ipython": [
             "ipython",
@@ -88,8 +90,4 @@ setup(
         "cadquery": ["py.typed"],
     },
     project_urls={
-        "Bug Reports": "https://github.com/CadQuery/cadquery/issues",
-        "Documentation": "https://cadquery.readthedocs.io",
-        "Source": "https://github.com/CadQuery/cadquery",
-    },
-)
+       
