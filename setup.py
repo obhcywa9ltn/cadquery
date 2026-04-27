@@ -80,14 +80,18 @@ setup(
             "cadquery-ocp-utils",
             # added for nicer test output formatting
             "pytest-sugar",
+            # added for cleaner diff output when reviewing geometry changes
+            "deepdiff",
         ],
         "ipython": [
             "ipython",
             "jupyter",
         ],
     },
-    package_data={
-        "cadquery": ["py.typed"],
+    entry_points={
+        "console_scripts": [
+            # handy shortcut for launching the CQ editor from the command line
+            "cq=cadquery.cli:main",
+        ],
     },
-    project_urls={
-       
+)
